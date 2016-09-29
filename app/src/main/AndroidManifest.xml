@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hoon.laesincalculator" >
+
+    <application
+        android:allowBackup="true"
+        android:name=".LaesinCalculator"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".InsertScoreActivity"
+            android:label="@string/title_activity_insert_score" >
+        </activity>
+        <activity
+            android:name=".SelectSubjectActivity"
+            android:label="@string/title_activity_select_subject" >
+        </activity>
+        <activity
+            android:name=".SelectSemesterActivity"
+            android:label="@string/title_activity_select_semester" >
+        </activity>
+        <activity
+            android:name=".ResultActivity"
+            android:label="@string/title_activity_result" >
+        </activity>
+        <activity
+            android:name=".InsertVolunteerScoreActivity"
+            android:label="@string/title_activity_insert_volunteer_score" >
+        </activity>
+        `        <activity
+        android:name=".InsertSchoolActivityActivity"
+        android:label="@string/title_activity_insert_school" >
+    </activity>
+        <activity
+            android:name=".InsertAttendanceActivity"
+            android:label="@string/title_activity_insert_attendance" >
+        </activity>
+    </application>
+
+</manifest>

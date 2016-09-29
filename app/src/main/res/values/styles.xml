@@ -1,0 +1,45 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:buttonStyle">@style/Laesin.Button.Default</item>
+        <item name="android:textViewStyle">@style/Laesin.TextView.Default</item>
+        <item name="android:editTextStyle">@style/Laesin.EditText.Default</item>
+    </style>
+
+    <style name="Laesin.Button.Default" parent="android:Widget.Button">
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:paddingLeft">30dp</item>
+        <item name="android:paddingRight">30dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:background">#FF2C44</item>
+    </style>
+
+    <style name="Laesin.TextView.Default" parent="android:Widget.TextView">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Laesin.TextView.Header" parent="Laesin.TextView.Default">
+        <item name="android:background">#FF2C44</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:padding">7dp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Laesin.TextView.Title" parent="Laesin.TextView.Header">
+        <item name="android:textSize">17sp</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+    <style name="Laesin.EditText.Default" parent="android:Widget.EditText">
+        <item name="android:background">@drawable/edit_text_background</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+    </style>
+
+</resources>
